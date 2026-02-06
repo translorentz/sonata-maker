@@ -20,7 +20,7 @@ class ToolPaths:
 class RenderConfig:
     """Tunable parameters for the generation and rendering pipeline."""
 
-    model: str = "gpt-5.1"
+    model: str = "gpt-5.2"
     reasoning_effort: str = "high"
     sample_rate: int = 44100
     dpi: int = 300

@@ -97,7 +97,7 @@ def parse_args(argv: Optional[list[str]] = None) -> argparse.Namespace:
 
     # Render config overrides
     rc = p.add_argument_group("render config")
-    rc.add_argument("--model", type=str, default="gpt-5.1")
+    rc.add_argument("--model", type=str, default="gpt-5.2")
     rc.add_argument(
         "--reasoning",
         type=str,

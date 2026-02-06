@@ -6,7 +6,7 @@ from sonata_maker.config import RenderConfig, ToolPaths
 class TestRenderConfig:
     def test_defaults(self):
         cfg = RenderConfig()
-        assert cfg.model == "gpt-5.1"
+        assert cfg.model == "gpt-5.2"
         assert cfg.reasoning_effort == "high"
         assert cfg.sample_rate == 44100
         assert cfg.dpi == 300

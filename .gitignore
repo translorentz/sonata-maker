@@ -39,6 +39,12 @@ build_out/
 .DS_Store
 Thumbs.db
 
+# Scratch / notes files (keep README.md and CLAUDE.md tracked)
+*.txt
+scratch*.md
+notes*.md
+TODO.md
+
 # Environment
 .env
 .env.local

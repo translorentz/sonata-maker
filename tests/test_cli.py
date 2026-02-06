@@ -50,7 +50,7 @@ class TestParseArgs:
 
     def test_render_config_defaults(self):
         args = parse_args(["motif.ly"])
-        assert args.model == "gpt-5.1"
+        assert args.model == "gpt-5.2"
         assert args.reasoning == "high"
         assert args.dpi == 300
         assert args.sample_rate == 44100
